@@ -46,7 +46,7 @@ body {
     margin:0 auto;
 }
 
-.profile-photo{
+.profile-picture{
     width: 2.7rem;
     aspect-ratio: 1/1;
     border-radius: 50%;
@@ -79,4 +79,41 @@ img{
 }
 .text-muted{
     color: var(--color-gray);
+}
+/* navbar */
+nav{
+    width:100%;
+    background-color: var(--color-white);
+    padding: 0.7rem 0;
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .search{
+    background: var(--color-light);
+    border-radius: var(--border-radius);
+    padding: var(--search-padding);
+
+}
+nav .search input[type="search"]{
+    background: transparent;
+    width:30vw;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    color: var(--color-dark);
+}
+nav .search input[type="search"]::placeholder{
+    color: var(--color-gray);
+}
+
+nav .create{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
 }
