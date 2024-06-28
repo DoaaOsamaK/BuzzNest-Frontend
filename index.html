@@ -1,252 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Augalassia</title>
     <!-- iconscout cdn -->
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
-    />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- navbar -->
     <nav>
-      <div class="container">
-        <h2 class="logo">Augalassia</h2>
-        <div class="search">
-          <i class="uil uil-search"></i>
-          <input
-            type="search"
-            name=""
-            id=""
-            placeholder="Search for find your friend!"
-          />
+        <div class="container">
+            <h2 class="logo">Augalassia</h2>
+            <div class="search">
+                <i class="uil uil-search"></i>
+                <input type="search" name="" id="" placeholder="Search for find your friend!" />
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">create</label>
+                <div class="profile-picture">
+                    <img src="assets/images/profile-1.jpg" alt="" />
+                </div>
+            </div>
         </div>
-        <div class="create">
-          <label class="btn btn-primary" for="create-post">create</label>
-          <div class="profile-picture">
-            <img src="assets/images/profile-1.jpg" alt="" />
-          </div>
-        </div>
-      </div>
     </nav>
     <!-- -------------------MAin----------------- -->
     <main>
-      <div class="container">
-        <!-- ---------------left--------------- -->
-        <div class="left">
-          <a  class="profile">
-            <div class="profile-picture">
-              <img src="assets/images/profile-1.jpg" alt="" />
-            </div>
-            <div class="handel">
-              <h4>Augalassia</h4>
-              <p class="text-muted">@d3</p>
-            </div>
-          </a>
-          <!----------------- SIDEBAR -------------------->
-          <div class="sidebar">
-            <a class="menu-item active">
-              <span><i class="uil uil-home"></i></span>
-              <h3>Home</h3>
-            </a>
-            <a class="menu-item">
-              <span><i class="uil uil-compass"></i></span>
-              <h3>Explore</h3>
-            </a>
-            <a class="menu-item" id="notifications">
-              <span
-                ><i class="uil uil-bell"
-                  ><small class="notification-count">9+</small></i
-                ></span
-              >
-              <h3>Notification</h3>
-              <!--------------- NOTIFICATION POPUP --------------->
-              <div class="notifications-popup">
-                <div>
-                  <div class="profile-photo">
-                    <img src="./images/profile-2.jpg" />
-                  </div>
-                  <div class="notification-body">
-                    <b>Keke Benjamin</b> accepted your friend request
-                    <small class="text-muted">2 Days Ago</small>
-                  </div>
-                </div>
-                <div>
-                  <div class="profile-photo">
-                    <img src="./images/profile-3.jpg" />
-                  </div>
-                  <div class="notification-body">
-                    <b>John Doe</b> commented on your post
-                    <small class="text-muted">1 Hour Ago</small>
-                  </div>
-                </div>
-                <div>
-                  <div class="profile-photo">
-                    <img src="./images/profile-4.jpg" />
-                  </div>
-                  <div class="notification-body">
-                    <b>Marry Oppong</b> and <b>283 Others</b> liked your post
-                    <small class="text-muted">4 Minutes Ago</small>
-                  </div>
-                </div>
-                <div>
-                  <div class="profile-photo">
-                    <img src="./images/profile-5.jpg" />
-                  </div>
-                  <div class="notification-body">
-                    <b>Doris Y. Lartey</b> commented on a post you are tagged in
-                    <small class="text-muted">2 Days Ago</small>
-                  </div>
-                </div>
-                <div>
-                  <div class="profile-photo">
-                    <img src="./images/profile-6.jpg" />
-                  </div>
-                  <div class="notification-body">
-                    <b>Keyley Jenner</b> commented on a post you are tagged in
-                    <small class="text-muted">1 Hour Ago</small>
-                  </div>
-                </div>
-                <div>
-                  <div class="profile-photo">
-                    <img src="./images/profile-7.jpg" />
-                  </div>
-                  <div class="notification-body">
-                    <b>Jane Doe</b> commented on your post
-                    <small class="text-muted">1 Hour Ago</small>
-                  </div>
-                </div>
-              </div>
-              <!--------------- END NOTIFICATION POPUP --------------->
-            </a>
-            <a class="menu-item" id="messages-notifications">
-              <span
-                ><i class="uil uil-envelope-alt"
-                  ><small class="notification-count">6</small></i
-                ></span
-              >
-              <h3>Messages</h3>
-            </a>
-            <a class="menu-item">
-              <span><i class="uil uil-bookmark"></i></span>
-              <h3>Bookmarks</h3>
-            </a>
-            <a class="menu-item">
-              <span><i class="uil uil-chart-line"></i></span>
-              <h3>Analytics</h3>
-            </a>
-            <a class="menu-item" id="theme">
-              <span><i class="uil uil-palette"></i></span>
-              <h3>Theme</h3>
-            </a>
-            <a class="menu-item">
-              <span><i class="uil uil-setting"></i></span>
-              <h3>Setting</h3>
-            </a>
-          </div>
-          <!----------------- END OF SIDEBAR -------------------->
-            <!---------------------END OF LEFT----------------- -->
-
-          <label for="create-post" class="btn btn-primary">Create Post</label>
-        </div>
-        <!-- ---------middle---------------------- -->
-        <div class="middle">
-            <!-- STORIES   -->
-             <div class="stories">
-                <!-- start -->
-                <div class="story">
+        <div class="container">
+            <!-- ---------------left--------------- -->
+            <div class="left">
+                <a class="profile">
                     <div class="profile-picture">
                         <img src="assets/images/profile-1.jpg" alt="" />
                     </div>
-                    <p class="name">Your Story</p>
-                </div>
-                    <!-- end -->
-                     <!-- start -->
-                <div class="story">
-                    <div class="profile-picture">
-                        <img src="assets/images/profile-1.jpg" alt="" />
+                    <div class="handel">
+                        <h4>Augalassia</h4>
+                        <p class="text-muted">@d3</p>
                     </div>
-                    <p class="name">Olivia Johnson</p>
-                </div>
-                    <!-- end -->
-                     <!-- start -->
-                <div class="story">
-                    <div class="profile-picture">
-                        <img src="assets/images/profile-1.jpg" alt="" />
-                    </div>
-                    <p class="name">Ethan Williams</p>
-                </div>
-
-                    <!-- end -->
-                     <!-- start -->
-                <div class="story">
-                    <div class="profile-picture">
-                        <img src="assets/images/profile-1.jpg" alt="" />
-                    </div>
-                    <p class="name">Ava Brown</p>
-                </div>
-                    <!-- end -->
-                     <!-- start -->
-                <div class="story">
-                    <div class="profile-picture">
-                        <img src="assets/images/profile-1.jpg" alt="" />
-                    </div>
-                    <p class="name">Liam Davis</p>
-                </div>
-                    <!-- end -->
-                     <!-- start -->
-                <div class="story">
-                    <div class="profile-picture">
-                        <img src="assets/images/profile-1.jpg" alt="" />
-                    </div>
-                    <p class="name">Sophia Miller</p>
-                </div>
-                    <!-- end -->
-                     <!-- start -->
-                <div class="story">
-                    <div class="profile-picture">
-                        <img src="assets/images/profile-1.jpg" alt="" />
-                    </div>
-                    <p class="name">Noah Wilson</p>
-                </div>
-                    <!-- end -->
-                     <!-- start -->
-                <div class="story">
-                    <div class="profile-picture">
-                        <img src="assets/images/profile-1.jpg" alt="" />
-                    </div>
-                    <p class="name">Isabella Moore</p>
-                </div>
-            </div>
-                    <!-- end -->
-                     <!-- END OF STORIES -->
-                      <!--  POSTS -->
-                      <form action="" class="create-post">
-                        <div class="profile-picture">
-                            <img src="assets/images/profile-1.jpg">
+                </a>
+                <!----------------- SIDEBAR -------------------->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class="uil uil-home"></i></span>
+                        <h3>Home</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-compass"></i></span>
+                        <h3>Explore</h3>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                        <span><i class="uil uil-bell"><small class="notification-count">9+</small></i></span>
+                        <h3>Notification</h3>
+                        <!--------------- NOTIFICATION POPUP --------------->
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-2.jpg" />
+                                </div>
+                                <div class="notification-body">
+                                    <b>Keke Benjamin</b> accepted your friend request
+                                    <small class="text-muted">2 Days Ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-3.jpg" />
+                                </div>
+                                <div class="notification-body">
+                                    <b>John Doe</b> commented on your post
+                                    <small class="text-muted">1 Hour Ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-4.jpg" />
+                                </div>
+                                <div class="notification-body">
+                                    <b>Marry Oppong</b> and <b>283 Others</b> liked your post
+                                    <small class="text-muted">4 Minutes Ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-5.jpg" />
+                                </div>
+                                <div class="notification-body">
+                                    <b>Doris Y. Lartey</b> commented on a post you are tagged in
+                                    <small class="text-muted">2 Days Ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-6.jpg" />
+                                </div>
+                                <div class="notification-body">
+                                    <b>Keyley Jenner</b> commented on a post you are tagged in
+                                    <small class="text-muted">1 Hour Ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile-7.jpg" />
+                                </div>
+                                <div class="notification-body">
+                                    <b>Jane Doe</b> commented on your post
+                                    <small class="text-muted">1 Hour Ago</small>
+                                </div>
+                            </div>
                         </div>
-                        <input type="text" placeholder="What's on your mind, Augalassia?" id="create-post">
-                        <input type="submit" value="Post" class="btn btn-primary">
-                    </form>
-                     
-       
+                        <!--------------- END NOTIFICATION POPUP --------------->
+                    </a>
+                    <a class="menu-item" id="messages-notifications">
+                        <span><i class="uil uil-envelope-alt"><small class="notification-count">6</small></i></span>
+                        <h3>Messages</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-bookmark"></i></span>
+                        <h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-chart-line"></i></span>
+                        <h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item" id="theme">
+                        <span><i class="uil uil-palette"></i></span>
+                        <h3>Theme</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-setting"></i></span>
+                        <h3>Setting</h3>
+                    </a>
                 </div>
-             </div>
-         </div>
-                    <!---------------------END OF MIDDLE----------------- -->
+                <!----------------- END OF SIDEBAR -------------------->
+                <!---------------------END OF LEFT----------------- -->
 
-    
+                <label for="create-post" class="btn btn-primary">Create Post</label>
+            </div>
+            <!-- ---------middle---------------------- -->
+            <div class="middle">
+                <!-- STORIES   -->
+                <div class="stories">
+                    <!-- start -->
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="assets/images/profile-1.jpg" alt="" />
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <!-- end -->
+                    <!-- start -->
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="assets/images/profile-18.jpg" alt="" />
+                        </div>
+                        <p class="name">Olivia Johnson</p>
+                    </div>
+                    <!-- end -->
+                    <!-- start -->
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="assets/images/profile-11.jpg" alt="" />
+                        </div>
+                        <p class="name">Ethan Williams</p>
+                    </div>
+
+                    <!-- end -->
+                    <!-- start -->
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="assets/images/profile-12.jpg" alt="" />
+                        </div>
+                        <p class="name">Ava Brown</p>
+                    </div>
+                    <!-- end -->
+                    <!-- start -->
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="assets/images/profile-15.jpg" alt="" />
+                        </div>
+                        <p class="name">Liam Davis</p>
+                    </div>
+                    <!-- end -->
+                    <!-- start -->
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="assets/images/profile-4.jpg" alt="" />
+                        </div>
+                        <p class="name">Sophia Miller</p>
+                    </div>
+                    <!-- end -->
+                    <!-- start -->
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="assets/images/profile-5.jpg" alt="" />
+                        </div>
+                        <p class="name">Noah Wilson</p>
+                    </div>
+                    <!-- end -->
+                    <!-- start -->
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="assets/images/profile-8.jpg" alt="" />
+                        </div>
+                        <p class="name">Isabella Moore</p>
+                    </div>
+                </div>
+                <!-- end -->
+                <!-- END OF STORIES -->
+                <!--  POSTS -->
+                <form action="" class="create-post">
+                    <div class="profile-picture">
+                        <img src="assets/images/profile-1.jpg">
+                    </div>
+                    <input type="text" placeholder="What's on your mind, Augalassia?" id="create-post">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+                <!-- -----------FEEDS--------- -->
+                <div class="feeds">
+                    <!-- --FEED-- -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="assets/images/profile-8.jpg" alt="" />
+                                </div>
+                                <div class="ingo">
+                                    <h3>Ava Brown</h3>
+                                    <small>Dubai, 8 MINUTES AGO</small>
+                                </div>
+                                <span class="edit">
+                                    <i class="uil uil-ellipsis-h"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="photo">
+                            <img src="assets/images/feed-1.jpg" alt="" />
+                        </div>
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="assets/images/profile-19.jpg" alt=""></span>
+                            <span><img src="assets/images/profile-18.jpg" alt=""></span>
+                            <span><img src="assets/images/profile-17.jpg" alt=""></span>
+                            <p>Liked by <b>Ernest Achiever</b> and <b>2,464 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Ava Brown</b> Lorem ipsum dolor sit amet, consectetur laborum.
+                            <span class="harsh-tag">
+                                #summer
+                            </span></p>
+
+                        </div>
+                        <div class="comments text-muted">View all 277 comments</div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+        <!---------------------END OF MIDDLE----------------- -->
+
+
         <!-- -------------------right------------ -->
         <div class="right">
-          <p>
-          </p>
+            <p>
+            </p>
         </div>
-      </div>
+        </div>
     </main>
-  </body>
+</body>
+
 </html>
