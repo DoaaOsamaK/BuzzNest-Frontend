@@ -20,3 +20,10 @@ This project is a responsive social media website built using HTML, CSS, and Jav
 - **HTML:** Structure of web pages.
 - **CSS:** Styling and layout.
 - **JavaScript:** Adding interactivity and dynamic features.
+
+  ## 📧 Contact
+
+Doa'a Osama Khalaf  
+Email: doaaosamakhalaf@gmail.com  
+LinkedIn: [Doa'a Khalaf]([https://www.linkedin.com/in/doaao/](https://www.linkedin.com/in/duaaosama/))  
+Portfolio: [Behance]([https://www.behance.net/doaaosamakhalaf](https://www.behance.net/doaaosama7/projects)) | [Dribbble](https://dribbble.com/DoaaOsamaK)
