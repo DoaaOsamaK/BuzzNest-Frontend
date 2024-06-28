@@ -315,3 +315,11 @@ main .container .left .profile {
 .left .notifications-popup small {
     display: block;
 }
+/* --------------MIDDLE----------------- */
+.middle .stories{
+    display: flex;
+    justify-content: center;
+    height: 12rem;
+    gap:0.5rem;
+    
+}
