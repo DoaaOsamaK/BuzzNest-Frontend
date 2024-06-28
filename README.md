@@ -1,6 +1,9 @@
-# 🌐 Responsive Social Media Website with Theme Customization
+# 🌐BuzzNest
 
 This project is a responsive social media website built using HTML, CSS, and JavaScript. It allows users to customize the theme of the website.
+
+![image](https://github.com/DoaaOsamaK/BuzzNest-Frontend/assets/147305995/1261b537-5530-4b2c-8a1f-799270d8bfcc)
+
 
 ## 🚀 Features
 
